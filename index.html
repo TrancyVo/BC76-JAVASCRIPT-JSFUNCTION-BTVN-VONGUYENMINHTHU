@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- LINK CSS  -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="mb-5">BÀI TẬP VỀ NHÀ - FUNCTION</h1>
+      <ul
+        class="nav nav-pills mb-3 d-flex justify-content-center"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-bai1-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-bai1"
+            type="button"
+            role="tab"
+            aria-controls="pills-bai1"
+            aria-selected="true"
+          >
+            BÀI 1
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-bai2-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-bai2"
+            type="button"
+            role="tab"
+            aria-controls="pills-bai2"
+            aria-selected="false"
+          >
+            BÀI 2
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-bai3-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-bai3"
+            type="button"
+            role="tab"
+            aria-controls="pills-bai3"
+            aria-selected="false"
+          >
+            BÀI 3
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-bai4-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-bai4"
+            type="button"
+            role="tab"
+            aria-controls="pills-bai4"
+            aria-selected="false"
+          >
+            BÀI 4
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-bai5-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-bai5"
+            type="button"
+            role="tab"
+            aria-controls="pills-bai5"
+            aria-selected="false"
+          >
+            BÀI 5
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-bai1"
+          role="tabpanel"
+          aria-labelledby="pills-bai1-tab"
+          tabindex="0"
+        >
+          <!-- BÀI 1: TÍNH LƯƠNG NHÂN VIÊN -->
+          <div class="container">
+            <h2>BÀI 1: TÍNH TIỀN LƯƠNG NHÂN VIÊN</h2>
+            <div class="mb-3">
+              <label for="" class="form-label">Số ngày làm</label>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                id="soNgayLam"
+                aria-describedby="helpId"
+                placeholder="Vui lòng nhập số ngày làm"
+              />
+            </div>
+            <button id="btnTinhLuong" class="btn btn-dark">Tính lương</button>
+            <p class="ketQua bg-danger bg-opacity-75 p-3 text-white mt-3"></p>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-bai2"
+          role="tabpanel"
+          aria-labelledby="pills-bai2-tab"
+          tabindex="0"
+        >
+          <!-- BÀI 2: TÍNH GIÁ TRỊ TRUNG BÌNH  -->
+          <div class="container">
+            <h2>BÀI 2: TÍNH GIÁ TRỊ TRUNG BÌNH</h2>
+            <div class="mb-3">
+              <label for="" class="form-label">Số thực 1</label>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                id="soThuc1"
+                aria-describedby="helpId"
+                placeholder="Vui lòng nhập số thực 1"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Số thực 2</label>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                id="soThuc2"
+                aria-describedby="helpId"
+                placeholder="Vui lòng nhập số thực 2"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Số thực 3</label>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                id="soThuc3"
+                aria-describedby="helpId"
+                placeholder="Vui lòng nhập số thực 3"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Số thực 4</label>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                id="soThuc4"
+                aria-describedby="helpId"
+                placeholder="Vui lòng nhập số thực 4"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Số thực 5</label>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                id="soThuc5"
+                aria-describedby="helpId"
+                placeholder="Vui lòng nhập số thực 5"
+              />
+            </div>
+            <button id="btnTinhTB" class="btn btn-dark">Tính trung bình</button>
+            <p class="ketQua2 bg-danger bg-opacity-75 p-3 mt-3 text-white"></p>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-bai3"
+          role="tabpanel"
+          aria-labelledby="pills-bai3-tab"
+          tabindex="0"
+        >
+          <!-- BÀI 3: QUY ĐỔI TIỀN  -->
+          <div class="container">
+            <h2>BÀI 3: QUY ĐỔI TIỀN</h2>
+            <div class="mb-3">
+              <label for="" class="form-label">Quy đổi tiền USD sang VND</label>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                id="quyDoiUSDToVND"
+                aria-describedby="helpId"
+                placeholder="Vui lòng nhập số tiền USD cần quy đổi sang VND"
+              />
+              <button id="btnQuyDoi" class="btn btn-dark mt-3">
+                Quy đổi tiền
+              </button>
+              <p
+                class="ketQua3 bg-danger bg-opacity-75 p-3 mt-3 text-white"
+              ></p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-bai4"
+          role="tabpanel"
+          aria-labelledby="pills-bai4-tab"
+          tabindex="0"
+        >
+          <!-- BÀI 4: TÍNH DIỆN TÍCH - CHU VI HCN -->
+          <div class="container">
+            <h2>BÀI 4: TÍNH DIỆN TÍCH - CHU VI HCN</h2>
+            <div class="mb-3">
+              <label for="" class="form-label">Chiều Dài HCN</label>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                id="chieuDaiHCN"
+                aria-describedby="helpId"
+                placeholder="Vui lòng nhập chiều dài HCN"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="" class="form-label">Chiều Rộng HCN</label>
+              <input
+                type="text"
+                class="form-control"
+                name=""
+                id="chieuRongHCN"
+                aria-describedby="helpId"
+                placeholder="Vui lòng nhập chiều rộng HCN"
+              />
+            </div>
+            <button id="btnTinhToan" class="btn btn-dark">Tính Toán</button>
+            <p class="ketQua4 bg-danger bg-opacity-75 p-3 mt-3 text-white"></p>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-bai5"
+          role="tabpanel"
+          aria-labelledby="pills-bai5-tab"
+          tabindex="0"
+        >
+          <!-- BÀI 5: TÍNH TỔNG 2 KÝ SỐ  -->
+          <div class="container">
+            <h2>BÀI 5: TÍNH TỔNG 2 KÝ SỐ</h2>
+            <div class="mb-3">
+              <label for="" class="form-label">Số có 02 ký số</label>
+              <input
+                type="number"
+                class="form-control"
+                name=""
+                id="number"
+                aria-describedby="helpId"
+                placeholder="Vui lòng nhập số có 02 ký số"
+              />
+            </div>
+            <button id="btnTinhTong2KySo" class="btn btn-dark">
+              Tính tổng 02 ký số
+            </button>
+            <p class="ketQua5 bg-danger bg-opacity-75 p-3 mt-3 text-white"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <!-- link JS  -->
+    <script src="./index.js"></script>
+  </body>
+</html>
